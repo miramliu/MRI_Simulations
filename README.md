@@ -1,6 +1,11 @@
 # MRI_Simulations
  These are simulations written for visual demonstrations of basic principles of MRI.\
- Packages required include numpy, matplotlib, os, glob, fnmatch, mpl_toolkits, csv, scipy, pickly, seaborn, and tkinter.
+ Packages required include numpy, matplotlib, os, glob, fnmatch, mpl_toolkits, csv, scipy, pickly, seaborn, and tkinter.\
+ It is split into three folders. "Basic MR" focuses on simple T1 and T2 MR sequences. "k-space" goes through an example of how k-space and the spatial domain relate using an analogy of music and an example of reconstructing an image of a healthy brain. "MRAcquisition" goes through how frequency and phase ancoding work visually and in fourier space. \
+ The code is provided, rather than just images, so that the basic mathematics and physics written out in the functions provided can be seen, modified, and hopefully understood!
+ 
+ Any questions can be sent to Mira Liu at liusarkarm@uchicago.edu\
+May 2023
 
 # Basic MR
  MR_Physics_Diagrams shows basic MR signal oscillation and decay in 2D, and in 3D. Further explanation is included in the chapter about MR physics.
@@ -23,5 +28,4 @@ MRI_VaryingSpatialFrequency attempts to show the 1D analysis of spatial frequenc
 
 
 
-Any questions can be sent to Mira Liu at liusarkarm@uchicago.edu\
-May 2023
+
